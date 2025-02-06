@@ -278,3 +278,6 @@ def main():
             make(name[0], id[0], content, icon),
             mimetype="image/png"
         )
+
+if __name__ == "__main__":
+    app.run()
