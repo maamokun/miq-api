@@ -278,6 +278,3 @@ def main():
             make(name[0], id[0], content, icon),
             mimetype="image/png"
         )
-
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=3000)
